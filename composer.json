@@ -1,5 +1,5 @@
 {
-    "name"       : "code-mine/comandquery",
+    "name"       : "code-mine/zf-tactician-comandquery",
     "description": "Command query interfaces and abstract classes",
     "type"       : "project",
     "homepage"   : "http://code-mine.com/",

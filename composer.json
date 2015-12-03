@@ -1,0 +1,20 @@
+{
+    "name"       : "code-mine/comandquery",
+    "description": "Command query interfaces and abstract classes",
+    "type"       : "project",
+    "homepage"   : "http://code-mine.com/",
+    "support"    : {
+        "email": "office@code-mine.com"
+    },
+    "require"    : {
+        "php"                            : ">=5.5",
+        "zendframework/zend-eventmanager": "~2.5"
+    },
+    "require-dev": {
+    },
+    "autoload"   : {
+        "psr-4": {
+            "CodeMine\\CommandQuery\\": "src"
+        }
+    }
+}

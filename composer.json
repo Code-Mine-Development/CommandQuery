@@ -9,7 +9,6 @@
     "require"    : {
         "php"                            : ">=5.5",
         "zendframework/zend-eventmanager": "~2.5",
-        "league/tactician-logger": "^0.3.0",
         "mikemix/tactician-module": "~1.0"
     },
     "require-dev": {

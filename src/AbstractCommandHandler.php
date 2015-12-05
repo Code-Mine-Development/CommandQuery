@@ -42,6 +42,9 @@ abstract class AbstractCommandHandler implements EventManagerAwareInterface
         $this->eventManager->trigger(self::commandEventPre($commandInterface::name()), $commandInterface);
 
         try {
+            if (TRUE === $commandInterface instanceof CommandQueryInputFilterAwareInterface) {
+                $commandInterface->validate();
+            }
             $result = $this->process($commandInterface);
         } catch (\Exception $exception) {
             $this->eventManager->trigger(self::commandEventError($commandInterface::name(), $commandInterface, ['commandError' => $exception]));

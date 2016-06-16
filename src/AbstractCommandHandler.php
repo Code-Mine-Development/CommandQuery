@@ -58,7 +58,7 @@ abstract class AbstractCommandHandler implements EventManagerAwareInterface
 
     public static function commandEventPre($command)
     {
-        return $command . '.post';
+        return $command . '.pre';
     }
 
     public static function commandEventError($command)

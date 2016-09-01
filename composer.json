@@ -7,6 +7,8 @@
   "support"    : {
     "email": "office@code-mine.com"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require"    : {
     "php"                            : ">=5.5",
     "zendframework/zend-eventmanager": "~3.0.1",

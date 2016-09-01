@@ -13,7 +13,7 @@
     "php"                            : ">=5.5",
     "zendframework/zend-eventmanager": ">=2.5",
     "zendframework/zend-inputfilter" : ">=2.5",
-    "code-mine/tactician-module"     : ">=1.0"
+    "code-mine/tactician-module"     : ">=2.0.1"
   },
   "require-dev"      : {
   },

@@ -9,11 +9,11 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "require"    : {
-    "php"                            : ">=5.5",
-    "zendframework/zend-eventmanager": "~3.0.1",
-    "zendframework/zend-inputfilter" : "~2.7",
-    "mikemix/tactician-module"       : "~1.2"
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zend-eventmanager": ">=2.5",
+    "zendframework/zend-inputfilter": ">=2.5",
+    "code-mine/tactician-module": ">=1.0"
   },
   "require-dev": {
   },

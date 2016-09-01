@@ -1,23 +1,23 @@
 {
-  "name"       : "code-mine/zf-tactician-comandquery",
-  "description": "Command query interfaces and abstract classes",
-  "type"       : "project",
-  "license"    : "BSD-3-Clause",
-  "homepage"   : "http://code-mine.com/",
-  "support"    : {
+  "name"             : "code-mine/zf-tactician-comandquery",
+  "description"      : "Command query interfaces and abstract classes",
+  "type"             : "project",
+  "license"          : "BSD-3-Clause",
+  "homepage"         : "http://code-mine.com/",
+  "support"          : {
     "email": "office@code-mine.com"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require": {
-    "php": ">=5.5",
+  "prefer-stable"    : true,
+  "require"          : {
+    "php"                            : ">=5.5",
     "zendframework/zend-eventmanager": ">=2.5",
-    "zendframework/zend-inputfilter": ">=2.5",
-    "code-mine/tactician-module": ">=1.0"
+    "zendframework/zend-inputfilter" : ">=2.5",
+    "code-mine/tactician-module"     : ">=1.0"
   },
-  "require-dev": {
+  "require-dev"      : {
   },
-  "autoload"   : {
+  "autoload"         : {
     "psr-4": {
       "CodeMine\\CommandQuery\\": "src"
     }

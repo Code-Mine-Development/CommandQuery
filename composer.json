@@ -9,9 +9,9 @@
   },
   "require": {
     "php": ">=5.5",
-    "zendframework/zend-eventmanager": "~2.5",
-    "zendframework/zend-inputfilter": "~2.5",
-    "mikemix/tactician-module": "~1.0"
+    "zendframework/zend-eventmanager": ">=2.5",
+    "zendframework/zend-inputfilter": ">=2.5",
+    "mikemix/tactician-module": ">=1.0"
   },
   "require-dev": {
   },
